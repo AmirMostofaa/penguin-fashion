@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue',
+    cursive;
+}
+h4, p {
+    font-family: 'Roboto',
+    sans-serif;
+}
+h4 {
+    color: #363958;
+    font-weight: 700;;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 18rem;
+}
+.yellow {
+    color: #FABE4C;
+}
+.black {
+    color: #363958;
+}
+.btn-penguin {
+    background-color: #A4BC46;
+    color: white;
+    padding: .8rem 2.2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-penguin:hover {
+    background-color: #FABE4C;
+    transition: background-color .4s;
+}
+.btn-penguin i {
+    padding-right: .5rem;
+}
+
+
+/*  Header Area */
+
+header , .header, .hero-area {
+    background-color: #FFFBF0;
+}
+li a {
+    color: #3C3C3C;
+    font-weight: 600;
+}
+
+/* Hero Area  */
+
+.hero-text h1 {
+    font-size: 4rem;
+}
+.hero-img {
+    width: 80%;
+}
+
+
+/*  Woman Jacket Area */
+.single-w-jacket {
+    padding: .4rem;
+    box-shadow: 10px 10px 13px 4px rgba(241, 241, 241, 0.75);
+    -webkit-box-shadow: 10px 10px 13px 4px rgba(241, 241, 241, 0.75);
+    -moz-box-shadow: 10px 10px 13px 4px rgba(241, 241, 241, 0.75);
+    border-radius: 12px;
+    padding: .8rem;
+    height: 650px;
+}
+.jacket-img {
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    padding: .4rem;
+    
+}
+.jacket-img img {
+    max-height: 400px;
+}
+.jacket-info h1 {
+    padding-top: .8rem;
+}
+
+
+/*  Feature Area CSS */
+.feature {
+    padding: .4rem;
+    box-shadow: 10px 10px 13px 4px rgba(241, 241, 241, 0.75);
+    -webkit-box-shadow: 10px 10px 13px 4px rgba(241, 241, 241, 0.75);
+    -moz-box-shadow: 10px 10px 13px 4px rgba(241, 241, 241, 0.75);
+    border-radius: 12px;
+    padding: .8rem;
+}
+.feature img {
+    height: 5rem;
+    padding-right: 2rem;
+}
+
+
+/*  Footer Css */
+.footer-area {
+    background-color: #FFFBF0;
+}
+.footer-about p {
+    width: 80%;
+}
+.footer-about img {
+    max-width: 20rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.links {
+    margin-left: -2rem;
+}
+ul li {
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+}
+input {
+    width: 100%;
+    border: 1px solid yellowgreen;
+    border-radius: 8px;
+}
